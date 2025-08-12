@@ -28,8 +28,8 @@ public class Main {
 
     }
 
-    public static Integer restarDosNumero(){
-
+    public static Integer restarDosNumero(Integer numeroUno, Integer numeroDos){
+        return numeroUno-numeroDos;
     }
 
     public static Integer multiplicarDosNumero(){
@@ -38,5 +38,6 @@ public class Main {
 
     public static Integer dividirDosNumero(Integer numero1, Integer numero2){
         return numero1/numero2;
+
     }
 }
