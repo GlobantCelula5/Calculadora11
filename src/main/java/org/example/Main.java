@@ -36,7 +36,7 @@ public class Main {
 
     }
 
-    public static Integer dividirDosNumero(){
-
+    public static Integer dividirDosNumero(Integer numero1, Integer numero2){
+        return numero1/numero2;
     }
 }
