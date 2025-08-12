@@ -23,7 +23,8 @@ public class Main {
         }while (opcionMenu.equalsIgnoreCase("2"));
     }
 
-    public static Integer sumarDosNumero(){
+    public static Integer sumarDosNumero(Integer numeroUno, Integer numeroDos){
+        return numeroUno+numeroDos;
 
     }
 
